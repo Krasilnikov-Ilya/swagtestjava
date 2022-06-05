@@ -2,6 +2,7 @@ package org.example;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+
 public class ConfProperties {
     protected static FileInputStream fileInputStream;
     protected static Properties PROPERTIES;
@@ -20,6 +21,7 @@ public class ConfProperties {
                     fileInputStream.close();
                 } catch (IOException e) {
                     e.printStackTrace(); } } }
+
     /**
      * метод для возврата строки со значением из файла с настройками
      */
